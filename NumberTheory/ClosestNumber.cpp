@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
     int t;
     long long a,b,x,res,temp1,temp2;
     cin>>t;
