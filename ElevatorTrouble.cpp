@@ -29,18 +29,19 @@ int main()
 			for(int i=0;i<a[c].size();i++)
 			{
 				v = a[c][i];
-				if(!vis[v]){
+				if(!vis[v])
+				{
 					vis[v] = 1;	
 					if(dis[v] > (dis[c]+1))
 						dis[v]=dis[c]+1;
 					q.push(v);
 				}
-				if(vis[g]){
+				if(vis[g])
+				{
 					cout<<dis[g]<<endl;exit(0);
-			}
+				}
 		}
 	}
-	
 	if(dis[g] == (2*f))
 		cout<<"use the stairs"<<endl;}
 	return 0;
